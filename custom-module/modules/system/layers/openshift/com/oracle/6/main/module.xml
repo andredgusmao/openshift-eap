@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module xmlns="urn:jboss:module:1.1" name="com.oracle.6">
+<module xmlns="urn:jboss:module:1.1" name="com.oracle.ojdbc">
     <resources>
         <resource-root path="ojdbc6-11.2.0.3.0.jar"/>
     </resources>
