@@ -6,4 +6,8 @@ custom-standalone/.classpath
 custom-standalone/.project
 custom-standalone/.settings/
 custom-standalone/target/
+custom-module/.classpath
+custom-module/.project
+custom-module/.settings/
+custom-module/target/
 
