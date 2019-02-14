@@ -2,4 +2,8 @@ app/.classpath
 app/.project
 app/.settings/
 app/target/
+custom-standalone/.classpath
+custom-standalone/.project
+custom-standalone/.settings/
+custom-standalone/target/
 
