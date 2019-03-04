@@ -148,6 +148,18 @@
                     <driver name="postgresql" module="org.postgresql">
                         <xa-datasource-class>org.postgresql.xa.PGXADataSource</xa-datasource-class>
                     </driver>
+                    <driver name="oracle" module="com.oracle.6">
+                        <xa-datasource-class>oracle.jdbc.xa.client.OracleXADataSource</xa-datasource-class>
+                        <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+                    </driver>
+                    <driver name="jtds" module="net.sourceforge.jtds">
+                        <xa-datasource-class>net.sourceforge.jtds.jdbcx.JtdsDataSource</xa-datasource-class>
+                        <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
+                    </driver>
+                    <driver name="sqljdbc4" module="com.microsoft">
+                        <xa-datasource-class>com.microsoft.sqlserver.jdbc.SQLServerXA</xa-datasource-class>
+                        <driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
+                    </driver>
                     <!-- ##DRIVERS## -->
                 </drivers>
             </datasources>
